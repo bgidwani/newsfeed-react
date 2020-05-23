@@ -1,18 +1,18 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-//import createHistory from 'history/createBrowserHistory';
 import ReactGA from 'react-ga';
 
 import Terms from './Terms';
 import Privacy from './Privacy';
 import Home from './Home';
+const history = require('history').createBrowserHistory();
 
 const Router = () => {
-    /*const history = createHistory();
+    //const browser = history.createBrowserHistory();
     history.listen((location) => {
         ReactGA.set({ page: location.pathname });
         ReactGA.pageview(location.pathname);
-    });*/
+    });
 
     React.useEffect(() => {
         ReactGA.pageview(window.location.pathname);

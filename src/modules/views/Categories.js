@@ -3,8 +3,9 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import { Container, ButtonBase, Modal, Zoom } from '@material-ui/core';
 import Typography from '../components/Typography';
-import CategoryData from '../../data/categories.json';
+import ReactGA from 'react-ga';
 
+import CategoryData from '../../data/categories.json';
 import Articles from './Articles';
 
 const styles = (theme) => ({
@@ -97,7 +98,13 @@ function Categories(props) {
     const [currentCateogry, setCurrentCategory] = React.useState({});
 
     const openCategory = (category) => {
-        console.log('Inside open category', category);
+        //console.log('Inside open category', category);
+        ReactGA.event({
+            category: 'Category',
+            action: 'Category selected',
+            label: category.title,
+        });
+
         setCurrentCategory(category);
         setOpen(true);
     };
