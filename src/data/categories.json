@@ -1,0 +1,45 @@
+[
+    {
+        "url": "https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?auto=format&fit=crop&w=400&q=80",
+        "title": "Technology",
+        "width": "38%"
+    },
+    {
+        "url": "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?auto=format&fit=crop&w=400&q=80",
+        "title": "Business",
+        "width": "38%"
+    },
+    {
+        "url": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=400&q=80",
+        "title": "Health",
+        "width": "24%"
+    },
+    {
+        "url": "https://images.unsplash.com/photo-1470076892663-af684e5e15af?auto=format&fit=crop&w=400&q=80",
+        "title": "Entertainment",
+        "width": "50%"
+    },
+    {
+        "url": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=400&q=80",
+        "title": "Sports",
+        "width": "50%"
+    },
+    {
+        "url": "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=400&q=80",
+        "title": "Apple",
+        "usequery": "true",
+        "width": "40%"
+    },
+    {
+        "url": "https://images.unsplash.com/photo-1516245834210-c4c142787335?auto=format&fit=crop&w=400&q=80",
+        "title": "Bitcoin",
+        "usequery": "true",
+        "width": "20%"
+    },
+    {
+        "url": "https://images.unsplash.com/photo-1546054454-aa26e2b734c7?auto=format&fit=crop&w=400&q=80",
+        "title": "Android",
+        "usequery": "true",
+        "width": "40%"
+    }
+]
