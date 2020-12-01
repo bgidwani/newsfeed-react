@@ -114,8 +114,8 @@ const Articles = React.forwardRef((props, ref) => {
                                     variant="body1"
                                     className={classes.description}
                                 >
-                                    {article.description.indexOf('</') !==
-                                    -1 ? (
+                                    {article.description &&
+                                    article.description.indexOf('</') !== -1 ? (
                                         <div
                                             dangerouslySetInnerHTML={{
                                                 __html: article.description.replace(
